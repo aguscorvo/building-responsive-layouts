@@ -24,7 +24,7 @@ body {
   font-size: 14px;
   color: var(--very-dark-blue);
 
-  @media (width <= 425px) {
+  @media (width <= 615px) {
     padding: 16px;
   }
 }
@@ -36,7 +36,7 @@ body {
   border-radius: 12px;
   background-color: var(--white);
 
-  @media (width <= 425px) {
+  @media (width <= 615px) {
     width: 100%;
     height: auto;
     flex-direction: column;
@@ -46,7 +46,7 @@ body {
 
 .card picture {
   width: 50%;
-  @media (width <= 425px) {
+  @media (width <= 615px) {
     width: 100%;
   }
 }
@@ -54,7 +54,7 @@ body {
 .card picture img {
   height: 450px;
   border-radius: 12px 0 0 12px;
-  @media (width <= 425px) {
+  @media (width <= 615px) {
     width: 100%;
     height: auto;
     border-radius: 8px 8px 0 0;
@@ -67,7 +67,7 @@ body {
   gap: 24px;
   padding: 32px;
 
-  @media (width <= 425px) {
+  @media (width <= 615px) {
     padding: 25px;
     gap: 18px;
   }
