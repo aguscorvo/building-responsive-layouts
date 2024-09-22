@@ -118,3 +118,8 @@ button {
   font-weight: 700;
   color: var(--white);
 }
+
+button:hover {
+  background-color: hsl(157, 46%, 17%);
+  cursor: pointer;
+}
